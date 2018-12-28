@@ -1,0 +1,46 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+
+body {
+	/* background-color: rgba(65, 65, 65); */
+}
+
+.centeralised {
+	margin:10px;
+	min-width:100px;
+	text-align:center;
+}
+
+.chathistory {
+	height: 600px;
+	overflow-y: auto;
+	width:350px;
+	margin:10px auto;
+	/* background: rgba(50, 50, 50); */
+	text-align:left;
+	border: 1px solid rgb(218, 216, 222);
+}
+
+
+.txtarea {
+	max-height:150px;
+	min-height:40px;
+	max-width:330px;
+	min-width:330px;
+	margin:0px auto;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-right: 10px;
+	font-family: 'Roboto', sans-serif;
+	border: 1px solid rgb(218, 216, 222);
+}
+
+.siglemessage{
+	font-size:14px;
+	padding:5px;
+	color: black;
+	font-family: 'Roboto', sans-serif;
+	/* border-bottom: 1px solid #b3b3b3; */
+}
