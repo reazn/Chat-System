@@ -1,8 +1,8 @@
 <?php
 	$dbhost = "localhost";
-	$dbname = "ChatTest";
-	$dbuser = "ChatTest";
-	$dbpass = 'khlcQY39cDzO0pW2';
+	$dbname = "name";
+	$dbuser = "name";
+	$dbpass = 'password';
 	try{
 		$db = new PDO("mysql:dbhost=$dbhost;dbname=$dbname", "$dbuser", "$dbpass");
 	}catch(PDOException $e){
